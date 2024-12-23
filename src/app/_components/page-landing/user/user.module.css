@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 2rem;
+    padding-right: 4rem;
+    padding-bottom: 0;
+    color: var(--color-secondary-text);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.content {
+    padding: 1.5rem;
+    background-color: var(--color-main);
+    border-bottom: 1px solid var(--color-main-border);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--colo-main-content);
+    padding: 2rem;
+}
+
+.tabRow {
+    display: flex;
+}
+
+.tabRow>input {
+    transform: scale(1.5);
+    margin-right: 1rem;
+}
+
+.tabRow>.active {
+    font-weight: bold;
+}
+
+.inputFields {
+    color: var(--color-secondary-text);
+    font-size: medium;
+    padding: 1rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-main-border);
+    width: 450px;
+}
+
+.inputFields:focus {
+    outline: none;
+    border-bottom: 1px solid var(--color-side-panel);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 20rem;
+    gap: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+
+.button {
+    width: 250px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    background-color: var(--color-primary);
+    color: var(--color-side-panel-text);
+}
+
+.button:hover {
+    font-weight: 650;
+    background-color: var(--color-primary-hover);
+}
+
+.whiteButton {
+    width: 250px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: 1px solid var(--color-main-border);
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-text);
+}
+
+.whiteButton:hover {
+    font-weight: 650;
+    background-color: var(--color-secondary-hover);
+}
+
+.icon {
+    filter: drop-shadow(0 500px 0 var(--color-text));
+    transform: translateY(-500px);
+}
