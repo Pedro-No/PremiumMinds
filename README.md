@@ -2,11 +2,13 @@
 
 First:
 
-npm i
-
 ```bash
 npm i
-#then
+```
+
+Then:
+
+```bash
 npm run dev
 ```
 
